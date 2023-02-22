@@ -3,9 +3,9 @@
 /**
  * print_sign - print sign of character
  * @n: - character to be checked
- * Return: 1 print + if n is greater than 0
- * 0 print 0 if n is 0
- * -1 print - if n is less than 0
+ * Return: 1 print + if n is greater than zero
+ * 0 print 0 if n is zero
+ * -1 print - if n is less than zero
  */
 
 int print_sign(int n)
@@ -15,12 +15,12 @@ int print_sign(int n)
 	_putchar('+');
 	return (1);
 	}
-	(n = 0);
+	else if (n == 0)
 	{
 	_putchar('0');
 	return (0);
 	}
-
+	else
 	{
 	_putchar('-');
 	return (-1);
