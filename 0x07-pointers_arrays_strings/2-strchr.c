@@ -2,9 +2,10 @@
 #include "main.h"
 /**
  * *_strchr - function that locates a character in a string
- * @s: character
+ * @s: string
  * @c: character
- * Return: NULL
+ * Return: if c is not found - NULL
+ * if c is found pointer on first occurrence
  */
 char *_strchr(char *s, char c)
 {
