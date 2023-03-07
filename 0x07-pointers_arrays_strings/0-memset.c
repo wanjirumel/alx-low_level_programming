@@ -4,6 +4,8 @@
  * *_memset - function that fills memory with a constant byte
  * @s: charactr
  * @b: character
+ * @n: unsigned int
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
